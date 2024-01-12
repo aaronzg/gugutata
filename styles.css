@@ -201,13 +201,14 @@ body{
 .contenido{
     display: flex;
     flex-direction: column;
+   overflow: hidden;
 }
 .img1{
     height: 18rem;
     margin: 1rem 0;
 }
 .img2{
-    height: 22rem;
+    height: 15rem;
     margin-bottom: 2rem;
 }
 /* .svg{
