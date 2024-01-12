@@ -442,3 +442,84 @@ body{
 .nr{
     display: none;
 }
+
+/*  formulario */
+
+.gg-form-main{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+.gg-form{
+    padding: 0.1px;
+    padding-bottom: 2rem;
+    color: #f2f2f2;
+    background:linear-gradient(#002c46, #003d61);
+}
+.gg-form-label{
+    display: flex;
+    flex-direction: column;
+}
+
+.gg-form-input{
+    margin-bottom: 32px;
+    background-color: #e9e9e91e;
+    border-radius: .6rem;
+    text-align: center;
+    color: #fff;
+    border: #696969 1px solid;
+    outline: none;
+    transition: .3s border ease-in;
+}
+.gg-form-input:focus{
+    border: #e9e9e9 1px solid;
+}
+.input-text{
+    padding: .6rem 2rem;
+}
+.gg-form-labeltitle{
+    margin-bottom: 1rem;
+}
+[for='sex']{
+    text-align: center;
+    margin: 0;
+}
+.gg-form-button{
+   padding: .65rem;
+   border-radius: 100px;
+   box-shadow: 0 0 6px #0267a1;
+   outline: none;
+   border: #0267a1 1px solid;
+   color: #fff;
+   background: #003350;
+   transition: .3s ease-out all;
+
+   animation-name: blur;
+   animation-iteration-count: infinite;
+   animation-duration: 2s;
+}
+.gg-form-button:active{
+    scale: .95;
+    background-color: #007dc5;
+}
+@keyframes blur {
+    0%{
+        box-shadow: 0  0 6px #0267a1;
+    }
+    50%{
+        box-shadow: 0 0 15px #007dc5;
+    }
+    100%{
+        box-shadow: 0 0 6px #0267a1;
+    }
+}
+
+.gg-form-title{
+    margin-top: 1.2rem;
+    margin-left: .6rem;
+}
+
+.gg-form-paragraph{
+    margin-top: .8rem;
+    margin-left: .6rem;
+}
